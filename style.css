@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid{
+  display: grid;
+  grid-gap: 15px;
+  
+}
+.div{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.div3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.div4{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card{
+  background: chocolate;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+.grid-rows{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr ;
+}
